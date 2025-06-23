@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/kaibonsol/kaisboyfriendapplication/static/css/main.f855e6bc.css",
-    "main.js": "/kaibonsol/kaisboyfriendapplication/static/js/main.cba8f59d.js",
-    "static/js/453.c670c9c5.chunk.js": "/kaibonsol/kaisboyfriendapplication/static/js/453.c670c9c5.chunk.js",
-    "static/media/logo.svg": "/kaibonsol/kaisboyfriendapplication/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/kaibonsol/kaisboyfriendapplication/index.html",
-    "main.f855e6bc.css.map": "/kaibonsol/kaisboyfriendapplication/static/css/main.f855e6bc.css.map",
-    "main.cba8f59d.js.map": "/kaibonsol/kaisboyfriendapplication/static/js/main.cba8f59d.js.map",
-    "453.c670c9c5.chunk.js.map": "/kaibonsol/kaisboyfriendapplication/static/js/453.c670c9c5.chunk.js.map"
+    "main.css": "/kaisboyfriendapplication/static/css/main.f855e6bc.css",
+    "main.js": "/kaisboyfriendapplication/static/js/main.0134b171.js",
+    "static/js/453.c670c9c5.chunk.js": "/kaisboyfriendapplication/static/js/453.c670c9c5.chunk.js",
+    "static/media/logo.svg": "/kaisboyfriendapplication/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/kaisboyfriendapplication/index.html",
+    "main.f855e6bc.css.map": "/kaisboyfriendapplication/static/css/main.f855e6bc.css.map",
+    "main.0134b171.js.map": "/kaisboyfriendapplication/static/js/main.0134b171.js.map",
+    "453.c670c9c5.chunk.js.map": "/kaisboyfriendapplication/static/js/453.c670c9c5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.cba8f59d.js"
+    "static/js/main.0134b171.js"
   ]
 }

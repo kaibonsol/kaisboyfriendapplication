@@ -1,0 +1,29 @@
+// spacing & breakpoints
+$gap: 1rem;
+$mobile-breakpoint: 768px;
+$tablet-breakpoint: 1250px;
+
+.Form {
+	display: grid;
+	gap: $gap;
+
+	// by default, auto-fill as many columns as will fit at a min-width of 280px
+	grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+
+	@media (max-width: $tablet-breakpoint) {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	@media (max-width: $mobile-breakpoint) {
+		grid-template-columns: repeat(1, 1fr);
+		width: 90%;
+	}
+
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.Form > .Break {
+	/* cancel the gap above and below */
+	margin-top: -#{$gap};
+	margin-bottom: -#{$gap};
+}

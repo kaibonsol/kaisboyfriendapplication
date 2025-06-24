@@ -1,0 +1,47 @@
+$mobile-breakpoint: 850px;
+$tablet-breakpoint: 1250px;
+
+.FormContainer {
+	background-color: white;
+	border-radius: 8px;
+	/* subtle ambient + directional shadows */
+	box-shadow: 0 2px 3px rgba(0, 0, 0, 0.12),
+		/* small, soft “ambient” shadow */ 0 4px 4px rgba(0, 0, 0, 0.24); /* slightly sharper “directional” shadow */
+	/* Optional smooth transition for hover effects */
+	transition: box-shadow 0.2s ease-in-out;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: start;
+	align-items: center;
+
+	@media (max-width: $tablet-breakpoint) {
+		width: 75%;
+	}
+
+	@media (max-width: $mobile-breakpoint) {
+		width: 85%;
+		padding-left: 1em;
+		padding-right: 1em;
+		align-items: flex-start;
+		align-content: flex-start;
+	}
+
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+	padding-bottom: 2em;
+
+	width: 60%;
+	margin-top: 40px;
+	margin-bottom: 40px;
+
+	&:hover {
+		box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1), 0 8px 10px rgba(0, 0, 0, 0.06);
+	}
+
+	h1 {
+		font-family: "Alumni Sans SC";
+		font-size: 42pt;
+		text-align: center;
+	}
+}

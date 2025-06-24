@@ -1,0 +1,43 @@
+$primary-color: #5c6ac4;
+$border-color: #d1d5db;
+$label-color: #374151;
+$input-bg: #ffffff;
+$readonly-bg: #f9fafb;
+$border-radius: 0.375rem;
+$transition-duration: 0.2s;
+$transition-timing: ease-in-out;
+
+.EntryField {
+	display: flex;
+	flex-direction: column;
+
+	&__label {
+		margin-bottom: 0.25rem;
+		font-size: 0.875rem;
+		font-weight: 500;
+		color: $label-color;
+	}
+
+	&__input {
+		padding: 0.5rem 0.75rem;
+		font-size: 1rem;
+		color: inherit;
+		background-color: $input-bg;
+		border: 1px solid $border-color;
+		border-radius: $border-radius;
+		transition: border-color $transition-duration $transition-timing,
+			box-shadow $transition-duration $transition-timing;
+		background-color: $readonly-bg;
+		cursor: not-allowed;
+		&:focus {
+			outline: none;
+			border-color: $primary-color;
+			box-shadow: 0 0 0 3px rgba($primary-color, 0.2);
+		}
+
+		&:disabled {
+			background-color: $readonly-bg;
+			cursor: not-allowed;
+		}
+	}
+}

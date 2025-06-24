@@ -1,0 +1,15 @@
+$body-color: #374151;
+
+.TextBlurb {
+	// span full width of grid
+	grid-column: 1 / -1;
+
+	&__text {
+		margin: 0;
+		font-size: 1rem;
+		line-height: 1.5;
+		color: $body-color;
+		display: flex;
+		align-items: flex-end;
+	}
+}

@@ -1,0 +1,14 @@
+// match your Form’s gap variable if you want vertical spacing
+$gap: 1rem;
+
+.Break {
+	// span the full width of the parent grid
+	grid-column: 1 / -1;
+
+	// give it zero height so it doesn’t render any visible “bar”
+	height: 0;
+
+	// optional vertical spacing
+	margin-top: $gap;
+	margin-bottom: $gap;
+}

@@ -1,0 +1,28 @@
+$border-color: #d1d5db;
+$gap: 1rem;
+
+.HeadingLine {
+	display: flex;
+	align-items: center;
+	gap: $gap;
+	/* span full width of grid */
+	grid-column: 1 / -1;
+
+	&__title {
+		font-size: 1.25rem;
+		font-weight: 600;
+		margin: 0;
+		color: #374151;
+		/* allow wrapping if title is long */
+		white-space: normal;
+		word-break: break-word;
+		/* allow flex item to shrink and wrap */
+		flex-shrink: 1;
+	}
+
+	&__line {
+		flex: 1;
+		height: 1px;
+		background-color: $border-color;
+	}
+}

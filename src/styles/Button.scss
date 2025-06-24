@@ -1,0 +1,39 @@
+$primary-color: #5c6ac4;
+$border-color: #d1d5db;
+$label-color: #ffffff;
+$bg-color: #5c6ac4;
+$disabled-bg: #f9fafb;
+$disabled-color: #9ca3af;
+$border-radius: 0.375rem;
+$transition-duration: 0.2s;
+$transition-timing: ease-in-out;
+$padding-vertical: 0.5rem;
+$padding-horizontal: 1rem;
+
+.Button {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding: $padding-vertical $padding-horizontal;
+	font-size: 1rem;
+	font-weight: 500;
+	color: $label-color;
+	background-color: $bg-color;
+	border: 1px solid $border-color;
+	border-radius: $border-radius;
+	cursor: pointer;
+	transition: background-color $transition-duration $transition-timing,
+		border-color $transition-duration $transition-timing;
+
+	&:hover:not(.Button--disabled) {
+		background-color: darken($bg-color, 5%);
+		border-color: darken($border-color, 5%);
+	}
+
+	&--disabled {
+		background-color: $disabled-bg;
+		color: $disabled-color;
+		border-color: $border-color;
+		cursor: not-allowed;
+	}
+}

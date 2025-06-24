@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/kaisboyfriendapplication/static/css/main.c602867f.css",
-    "main.js": "/kaisboyfriendapplication/static/js/main.cf149052.js",
+    "main.js": "/kaisboyfriendapplication/static/js/main.6d93f1ba.js",
     "static/js/453.c670c9c5.chunk.js": "/kaisboyfriendapplication/static/js/453.c670c9c5.chunk.js",
     "static/media/smirking-face.png": "/kaisboyfriendapplication/static/media/smirking-face.a0acd23b072a5df47509.png",
     "index.html": "/kaisboyfriendapplication/index.html",
     "main.c602867f.css.map": "/kaisboyfriendapplication/static/css/main.c602867f.css.map",
-    "main.cf149052.js.map": "/kaisboyfriendapplication/static/js/main.cf149052.js.map",
+    "main.6d93f1ba.js.map": "/kaisboyfriendapplication/static/js/main.6d93f1ba.js.map",
     "453.c670c9c5.chunk.js.map": "/kaisboyfriendapplication/static/js/453.c670c9c5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c602867f.css",
-    "static/js/main.cf149052.js"
+    "static/js/main.6d93f1ba.js"
   ]
 }

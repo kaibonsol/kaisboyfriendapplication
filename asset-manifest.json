@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/kaisboyfriendapplication/static/css/main.2bb9837c.css",
-    "main.js": "/kaisboyfriendapplication/static/js/main.cfb04b79.js",
-    "static/js/453.c670c9c5.chunk.js": "/kaisboyfriendapplication/static/js/453.c670c9c5.chunk.js",
-    "static/media/smirking-face.png": "/kaisboyfriendapplication/static/media/smirking-face.a0acd23b072a5df47509.png",
-    "index.html": "/kaisboyfriendapplication/index.html",
-    "main.2bb9837c.css.map": "/kaisboyfriendapplication/static/css/main.2bb9837c.css.map",
-    "main.cfb04b79.js.map": "/kaisboyfriendapplication/static/js/main.cfb04b79.js.map",
-    "453.c670c9c5.chunk.js.map": "/kaisboyfriendapplication/static/js/453.c670c9c5.chunk.js.map"
+    "main.css": "/static/css/main.2bb9837c.css",
+    "main.js": "/static/js/main.210c9f24.js",
+    "static/js/453.c670c9c5.chunk.js": "/static/js/453.c670c9c5.chunk.js",
+    "static/media/smirking-face.png": "/static/media/smirking-face.a0acd23b072a5df47509.png",
+    "index.html": "/index.html",
+    "main.2bb9837c.css.map": "/static/css/main.2bb9837c.css.map",
+    "main.210c9f24.js.map": "/static/js/main.210c9f24.js.map",
+    "453.c670c9c5.chunk.js.map": "/static/js/453.c670c9c5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2bb9837c.css",
-    "static/js/main.cfb04b79.js"
+    "static/js/main.210c9f24.js"
   ]
 }

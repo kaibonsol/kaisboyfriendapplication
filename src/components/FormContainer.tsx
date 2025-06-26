@@ -21,6 +21,8 @@ export default function FormContainer() {
 	// Callbacks
 	const handleYes = useCallback(() => {
 		setSubmitted(true);
+		const audio = new Audio("/just-the-two-of-us.mp3");
+		audio.play();
 	}, [setSubmitted]);
 
 	return (
